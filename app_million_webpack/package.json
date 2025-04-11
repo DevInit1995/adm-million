@@ -1,0 +1,15 @@
+{
+  "name": "app_million_webpack",
+  "version": "0.0.1",
+  "description": "App Investimentos",
+  "license": "ISC",
+  "author": "",
+  "main": "main/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --watch --config dev.webpack.js"
+  },
+  "devDependencies": {
+    "webpack-cli": "^6.0.1"
+  }
+}
