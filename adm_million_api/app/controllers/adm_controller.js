@@ -1,7 +1,11 @@
+let Adm = require('../models/adm');
+
 const AdmController = {
     index: (req, res, next) => {
-        res.send([{id: 1, nome: "Jhon Santos"}]);
+        debugger
+        console.log("aqui");
+        res.send(Adm.todos());
     }
 }
-
+ 
 module.exports = AdmController;

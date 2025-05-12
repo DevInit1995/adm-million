@@ -1,5 +1,5 @@
 const HomeController = {
-    index: function(req, res, next) {
+    index: (req, res, next) => {
         res.render('index', { title: 'Express' });
       }
 }
